@@ -31,7 +31,7 @@ Librerias y herramientas que he utilizado en esta aplicación.
 - **Provider:** Gestión de estados.
 
 - **Dio:** Gestión y comunicación con API y servicios de red.
-- 
+
 - **Flutter Launcher Icons:** Icono App.
 
 
