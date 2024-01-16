@@ -33,6 +33,27 @@ Librerias y herramientas que he utilizado en esta aplicación.
 - **Dio:** Gestión y comunicación con API y servicios de red.
 
 - **Flutter Launcher Icons:** Icono App.
+- 
+## Chatgpt API 
+
+#### Ejemplo
+
+```http
+  POST https://api.openai.com/v1/completions
+```
+#### Headers
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| Content-Type | application/json |  
+| Bearer `api_key` | `string` | **Required**. Your API key |
+
+#### Data
+| Parameter | Type     |
+| :-------- | :------- | 
+| `model` | `string` |  
+| `prompt` | `string` | 
+| `max_tokens` | `int` | 
+| `temperature` | `int` | 
 
 
 ## Autor
