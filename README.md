@@ -2,7 +2,7 @@
 # Flutter Recipes
 
 Proyecto Master-Detail simple donde implementar todo lo relacionado con esta tecnología.
-
+Necesitas un **APIKEY** de Chatgpt.
 
 ### Arquitectura
 Este proyecto utiliza una Clean Architecture, busco separar la lógica en capas para mejorar la modularidad, flexibilidad y mantenibilidad.
