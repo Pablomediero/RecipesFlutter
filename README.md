@@ -11,11 +11,11 @@ Para la interfaz de usuario he combinado el patrón de diseño MVVM (Model-View-
 
 | **Capa**              | **Función** |
 | ---                   | ---       |
-| **Data:**             |    Gestión de datos.      |
-| **Di:**               |    Inyección de dependencias.    |
-| **Domain:**           |    Gestión de lógica de negocio.    |
-| **Model:**            |    Modelos de la aplicación.    |
-| **Presentación:**     |    Gestión de vistas.    |
+| **Data**             |    Gestión de datos.      |
+| **Di**               |    Inyección de dependencias.    |
+| **Domain**           |    Gestión de lógica de negocio.    |
+| **Model**            |    Modelos de la aplicación.    |
+| **Presentación**     |    Gestión de vistas.    |
 
 ## Librerías 
 Librerias y herramientas que he utilizado en esta aplicación. 
