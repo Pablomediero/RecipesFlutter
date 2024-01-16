@@ -33,7 +33,7 @@ Librerias y herramientas que he utilizado en esta aplicación.
 - **Dio:** Gestión y comunicación con API y servicios de red.
 
 - **Flutter Launcher Icons:** Icono App.
-- 
+
 ## Chatgpt API 
 
 #### Ejemplo
