@@ -38,7 +38,7 @@ Librerias y herramientas que he utilizado en esta aplicación.
 
 #### Ejemplo
 
-```http
+```
   POST https://api.openai.com/v1/completions
 ```
 #### Headers
