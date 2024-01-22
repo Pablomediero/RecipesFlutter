@@ -25,7 +25,7 @@ Librerias y herramientas que he utilizado en esta aplicación.
 - **GetIt:** Inyector de dependencias para una gestión flexible de componentes y servicios.
 
 - **Go Router:** Simplifica la gestión de la navegación, rutas y vistas en la aplicación.
-- 
+
 - **StreamController:** Utilizado para la gestión reactiva de datos, asegurando actualizaciones en tiempo real.
 
 - **Provider:** Herramienta clave para la gestión eficiente de estados y la actualización reactiva de la interfaz de usuario.
