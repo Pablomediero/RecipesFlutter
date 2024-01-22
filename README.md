@@ -11,28 +11,27 @@ Para la interfaz de usuario he combinado el patrón de diseño MVVM (Model-View-
 
 | **Capa**              | **Función** |
 | ---                   | ---       |
-| **Data**             |    Gestión de datos.      |
-| **Di**               |    Inyección de dependencias.    |
-| **Domain**           |    Gestión de lógica de negocio.    |
-| **Model**            |    Modelos de la aplicación.    |
-| **Presentación**     |    Gestión de vistas.    |
+| **Data**             |    En esta capa, nos enfocamos en la manipulación de datos y la interacción con la capa de almacenamiento local y remoto. Floor, nuestra base de datos local, se utiliza para el almacenamiento persistente de datos, permitiendo una gestión eficiente y escalable de la información..     |
+| **Di**               |    La capa de Inyección de Dependencias (DI) es esencial para proporcionar una estructura flexible y desacoplada. GetIt fue mi elección para la inyección de dependencias, proporcionando una configuración flexible y fácil de entender.    |
+| **Domain**           |    La lógica de negocio se centraliza en esta capa, garantizando coherencia y claridad en la implementación.    |
+| **Model**            |    Esta capa se encarga de definir los modelos de datos utilizados en la aplicación. Estos modelos actúan como representaciones estructuradas de la información que fluye a través de la aplicación, facilitando la consistencia y la comprensión de los datos en todas las capas.    |
+| **Presentación**     |    La gestión de vistas se basa en el patrón MVVM, proporcionando una separación clara entre la lógica de presentación y la interfaz de usuario. Utilicé Provider para la gestión de estados, asegurando una experiencia fluida para el usuario.    |
 
 ## Librerías 
 Librerias y herramientas que he utilizado en esta aplicación. 
 
-- **Floor:** Base de datos local.
+- **Floor:** Como base de datos local, Floor garantiza un almacenamiento persistente y eficiente de datos.
 
-- **GetIt:** Inyector de dependencias.
+- **GetIt:** Inyector de dependencias para una gestión flexible de componentes y servicios.
 
-- **Go Router:** Gestión de navegación, rutas y vistas.
+- **Go Router:** Simplifica la gestión de la navegación, rutas y vistas en la aplicación.
+- 
+- **StreamController:** Utilizado para la gestión reactiva de datos, asegurando actualizaciones en tiempo real.
 
-- **StreamController:** Gestión de datos.
+- **Provider:** Herramienta clave para la gestión eficiente de estados y la actualización reactiva de la interfaz de usuario.
 
-- **Provider:** Gestión de estados.
-
-- **Dio:** Gestión y comunicación con API y servicios de red.
-
-- **Flutter Launcher Icons:** Icono App.
+- **Dio:** Para la comunicación efectiva con APIs y servicios de red, Dio facilita las operaciones HTTP.
+- **Flutter Launcher Icons:** Añadí Flutter Launcher Icons para personalizar el icono de la aplicación, dándole una identidad visual única.
 
 ## Chatgpt API 
 
